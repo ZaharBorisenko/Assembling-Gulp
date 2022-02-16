@@ -23,6 +23,6 @@
 ### Обработка Js файлов(разбивка по компонентам)
 + [Webpack-stream](https://www.npmjs.com/package/webpack-stream) 🚨
 
-### Обработка Js файлов(разбивка по компонентам)
+### Оптимизация картинок(Webp)
 + [Gulp-Webp](https://www.npmjs.com/package/gulp-webp) 💥
 + [Gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) 💥
