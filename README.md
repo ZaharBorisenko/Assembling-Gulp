@@ -31,3 +31,5 @@
 ## для этого нужно:
 + скопировать папку gulp,src,а так же файлы gulpfile.js и package.json
 + и прописать команду в терминале - npm i
+### Исправление ошибок
+## при запуске gulp вылезает ошибка - Error: Cannot find module 'webp-converter/cwebp', чтобы исправить эту ошибку нужно установить convert плагин командой - npm install webp-converter@2.2.3 --save-dev
