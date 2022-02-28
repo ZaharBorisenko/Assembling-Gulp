@@ -1,6 +1,7 @@
 import dartSass from "sass"; 
 import gulpSass from "gulp-sass";
 import rename from "gulp-rename";
+import sassGlob from "gulp-sass-glob"
 
 import cleanCss from 'gulp-clean-css'; // сжатие css файла
 import webpcss from 'gulp-webpcss'; // вывод webp изображений
@@ -38,6 +39,7 @@ export const scss = () => {
         .pipe(rename({
             extname: ".min.css"
         }))
+        .pipe(sassGlob())
         .pipe(app.gulp.dest(app.path.build.css))
         .pipe(app.plugins.browsersync.stream());
 }
