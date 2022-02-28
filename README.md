@@ -33,3 +33,4 @@
 + и прописать команду в терминале - npm i
 ## Исправление ошибок
 ##### при запуске gulp вылезает ошибка - Error: Cannot find module 'webp-converter/cwebp', чтобы исправить эту ошибку нужно установить convert плагин командой - npm install webp-converter@2.2.3 --save-dev
+### Исправлена ошибка scss разбивки по компонентам - не работал @import в файлах scss, исправил с помощью плагина [gulp-sass-glob](https://www.npmjs.com/package/gulp-sass-glob)
